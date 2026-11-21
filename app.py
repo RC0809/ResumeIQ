@@ -192,7 +192,7 @@ with st.sidebar:
     st.markdown("## ✦ ResumeIQ")
     st.caption("AI CAREER INTELLIGENCE")
     st.divider()
-    page = st.radio("Navigation", ["Dashboard", "Resume Analyzer", "Prompt Comparison", "Analysis Results"],
+    page = st.radio("Navigation", ["Dashboard", "Resume Analyzer"],
                     index=1, key="nav_page", label_visibility="collapsed")
     st.divider()
     st.markdown("<span class='kicker'>Analysis Settings</span>", unsafe_allow_html=True)
@@ -221,8 +221,14 @@ if page == "Dashboard":
     b.metric("Documented test scenarios", "10")
     c.metric("Analysis outputs", "JSON / CSV")
     st.info("Select **Resume Analyzer** to upload a PDF, **Prompt Comparison** to benchmark strategies, or **Analysis Results** to view the most recent result.")
-    if st.button("Open Resume Analyzer", type="primary"):
+    def open_resume_analyzer():
         st.session_state.nav_page = "Resume Analyzer"
+
+        st.button(
+            "Open Resume Analyzer",
+            type="primary",
+            on_click=open_resume_analyzer
+        )
         st.rerun()
 
 if page in ("Resume Analyzer", "Prompt Comparison"):

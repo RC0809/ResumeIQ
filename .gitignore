@@ -5,4 +5,7 @@ __pycache__/
 .venv/
 .pytest_cache/
 .DS_Store
+.env
 .env.example
+.env.*
+.streamlit/secrets.toml
