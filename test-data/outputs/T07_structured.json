@@ -1,0 +1,63 @@
+{
+  "candidate_summary": "Kabir Sethi is a Computer Science student (expected 2026) with practical project experience in web development using the Django framework. His background includes foundational coursework in database systems and hands-on use of PostgreSQL and GitHub.",
+  "job_summary": "The Backend Developer Intern position requires proficiency in Python, Django, PostgreSQL, and Git, with specific needs for REST API development and unit testing skills.",
+  "compatibility_score": 60,
+  "score_explanation": "The candidate matches the core framework (Django) and database (PostgreSQL) requirements and has the appropriate educational background for an internship. However, the score is limited because the resume does not explicitly mention Python (though implied by Django), REST APIs, or unit testing. The JD's weight was redistributed as it lacked a 'Preferred Skills' section.",
+  "matched_skills": [
+    {
+      "skill": "Django",
+      "evidence": "Built a Django library website"
+    },
+    {
+      "skill": "PostgreSQL",
+      "evidence": "used PostgreSQL"
+    },
+    {
+      "skill": "Git",
+      "evidence": "used... GitHub for code changes"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Built a Django library website",
+      "gap": "Python is not explicitly listed as a skill or language, though it is the underlying language for Django."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "REST APIs",
+      "importance": "high",
+      "reason": "Required by JD for backend development, but not mentioned in project descriptions."
+    },
+    {
+      "skill": "Unit Testing",
+      "importance": "medium",
+      "reason": "Required by JD to ensure code quality, but no testing frameworks or practices are listed."
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Direct experience with the specific tech stack (Django/PostgreSQL) requested in the JD.",
+    "Relevant academic background in Computer Science."
+  ],
+  "resume_improvements": [
+    {
+      "original": "Built a Django library website",
+      "suggested": "Developed a library management web application using Python and Django, implementing CRUD functionality and user authentication.",
+      "reason": "Explicitly mentions the programming language (Python) and adds technical depth to the project."
+    },
+    {
+      "original": "used PostgreSQL and GitHub for code changes",
+      "suggested": "Managed relational data using PostgreSQL and utilized Git/GitHub for version control and collaborative development.",
+      "reason": "Uses industry-standard terminology like 'version control' and 'relational data'."
+    }
+  ],
+  "learning_recommendations": [
+    "Complete a project or tutorial on Django Rest Framework (DRF) to gain REST API experience.",
+    "Incorporate unit testing into existing projects using Python's 'unittest' or 'pytest' libraries."
+  ],
+  "warnings": [
+    "The resume is extremely brief; the score assumes the candidate's single project covers the breadth of the mentioned tools."
+  ]
+}

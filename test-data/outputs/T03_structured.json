@@ -1,0 +1,70 @@
+{
+  "candidate_summary": "Ishaan Verma is a B.Tech Artificial Intelligence student (expected 2026) with foundational knowledge in Python and PyTorch. His experience is limited to academic projects involving image classification and sentiment analysis.",
+  "job_summary": "The Junior AI Engineer role requires proficiency in Python and PyTorch, with specific emphasis on ML pipelines, RAG, and vector databases.",
+  "compatibility_score": 45,
+  "score_explanation": "The candidate matches core technical requirements (Python, PyTorch) but lacks evidence for modern AI stack components like RAG, vector databases, and ML pipelines. Significant deductions were made because the candidate is still a student and lacks the preferred cloud deployment experience.",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Listed under Skills"
+    },
+    {
+      "skill": "PyTorch",
+      "evidence": "Listed under Skills and used in Image classification project"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "Model evaluation",
+      "evidence": "Image classification and sentiment classifier projects",
+      "gap": "Resume does not explicitly mention evaluation metrics or methodologies used (e.g., F1-score, ROC-AUC)."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "ML pipelines",
+      "importance": "high",
+      "reason": "Required by JD; resume only shows isolated academic projects."
+    },
+    {
+      "skill": "RAG (Retrieval-Augmented Generation)",
+      "importance": "high",
+      "reason": "Core requirement for modern AI roles, not mentioned."
+    },
+    {
+      "skill": "Vector databases",
+      "importance": "high",
+      "reason": "Required for AI infrastructure, no evidence of tools like Pinecone, Milvus, or Weaviate."
+    },
+    {
+      "skill": "Cloud deployment",
+      "importance": "medium",
+      "reason": "Preferred skill in JD; no evidence of AWS, GCP, or Azure."
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Strong academic focus on AI and Deep Learning",
+    "Hands-on experience with industry-standard frameworks like PyTorch and scikit-learn"
+  ],
+  "resume_improvements": [
+    {
+      "original": "Image classification using PyTorch",
+      "suggested": "Developed an image classification model using PyTorch, achieving X% accuracy on the [Dataset Name] dataset.",
+      "reason": "Adding metrics and specific datasets provides concrete evidence of skill proficiency."
+    },
+    {
+      "original": "Relevant Coursework: Machine Learning, Deep Learning",
+      "suggested": "Relevant Coursework: Machine Learning, Deep Learning, Natural Language Processing (including RAG concepts)",
+      "reason": "Aligning coursework with specific JD keywords like RAG increases relevance."
+    }
+  ],
+  "learning_recommendations": [
+    "Complete a project implementing a RAG pipeline using LangChain or LlamaIndex.",
+    "Gain familiarity with vector databases such as Pinecone or ChromaDB.",
+    "Explore ML pipeline orchestration tools like Airflow or Kubeflow."
+  ],
+  "warnings": [
+    "The candidate is a current student (graduating 2026), which may impact availability for full-time roles."
+  ]
+}

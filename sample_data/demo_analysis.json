@@ -1,0 +1,54 @@
+{
+  "candidate_summary": "Sample candidate with Python, Streamlit and pandas project experience.",
+  "job_summary": "Sample software role requiring Python, APIs, SQL and dashboard experience.",
+  "compatibility_score": 72,
+  "score_explanation": "Illustrative estimate based on sample Python and dashboard evidence; API and SQL project evidence is limited.",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Python projects"
+    },
+    {
+      "skill": "Streamlit",
+      "evidence": "Streamlit dashboard project"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "SQL",
+      "evidence": "DBMS coursework",
+      "gap": "No practical SQL project shown"
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "REST APIs",
+      "importance": "high",
+      "reason": "No REST API project evidence"
+    }
+  ],
+  "unverified_skills": [
+    {
+      "skill": "Deployment",
+      "reason": "No deployment details provided"
+    }
+  ],
+  "strengths": [
+    "Python and dashboard experience"
+  ],
+  "resume_improvements": [
+    {
+      "original": "Built dashboard",
+      "suggested": "Developed a Streamlit dashboard using Python for interactive analysis.",
+      "reason": "Describes tools and deliverable without inventing metrics"
+    }
+  ],
+  "learning_recommendations": [
+    "Build a small REST API project",
+    "Add an SQL-backed project"
+  ],
+  "warnings": [
+    "Illustrative example, not an actual Gemini response",
+    "Skills absent from resume may still be possessed by candidate"
+  ]
+}

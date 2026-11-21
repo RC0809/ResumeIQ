@@ -1,0 +1,3 @@
+T07 | Edge
+Expected behavior: Infer skills only from explicit project evidence; handle absent Skills heading.
+Record actual behavior and Pass/Fail only after a real run.

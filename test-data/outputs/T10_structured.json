@@ -1,0 +1,65 @@
+{
+  "candidate_summary": "Rohan Mehta is a student with foundational exposure to Python programming, demonstrated through a single script project. The resume lacks professional experience or detailed technical project descriptions.",
+  "job_summary": "The role is a Python Developer Internship requiring knowledge of Python, Git, SQL, debugging, and REST APIs.",
+  "compatibility_score": 36,
+  "score_explanation": "The candidate meets the basic education requirement (student) and has used Python. However, the score is significantly reduced because 4 out of 5 core technical requirements (Git, SQL, Debugging, REST APIs) are entirely missing from the resume. The project description is also too brief to verify the depth of Python knowledge.",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Built a small Python script."
+    }
+  ],
+  "partial_skills": [],
+  "missing_skills": [
+    {
+      "skill": "Git",
+      "importance": "high",
+      "reason": "Required for version control in the JD but not mentioned."
+    },
+    {
+      "skill": "SQL",
+      "importance": "high",
+      "reason": "Required for database interaction but not mentioned."
+    },
+    {
+      "skill": "REST APIs",
+      "importance": "medium",
+      "reason": "Required for web development tasks but not mentioned."
+    },
+    {
+      "skill": "Debugging",
+      "importance": "medium",
+      "reason": "Explicitly required skill for the intern role."
+    }
+  ],
+  "unverified_skills": [
+    {
+      "skill": "Problem-solving skills",
+      "reason": "The resume is too brief to provide evidence of problem-solving methodology or complexity."
+    }
+  ],
+  "strengths": [
+    "Matches the 'Student' profile requested for an internship.",
+    "Direct evidence of Python usage."
+  ],
+  "resume_improvements": [
+    {
+      "original": "Built a small Python script.",
+      "suggested": "Developed a Python script to [describe function, e.g., automate data entry] using [libraries like Pandas/Requests], improving [metric or outcome].",
+      "reason": "The current description provides no context on the candidate's technical depth or the script's utility."
+    },
+    {
+      "original": "Student",
+      "suggested": "Include University name, expected graduation date, and relevant coursework (e.g., Data Structures, Database Management).",
+      "reason": "Provides context on academic preparation for technical roles."
+    }
+  ],
+  "learning_recommendations": [
+    "Complete a basic SQL course and add a project involving database queries.",
+    "Learn Git fundamentals (commit, push, pull, branching) and host the Python script on GitHub.",
+    "Explore REST API basics using frameworks like Flask or FastAPI."
+  ],
+  "warnings": [
+    "The resume is extremely minimal, making it difficult to assess the candidate's true skill level beyond basic Python syntax."
+  ]
+}

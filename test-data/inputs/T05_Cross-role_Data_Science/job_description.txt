@@ -1,0 +1,1 @@
+Data Scientist: Python, statistics, pandas, scikit-learn, model evaluation, visualization, experimentation.

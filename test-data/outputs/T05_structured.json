@@ -1,0 +1,72 @@
+{
+  "candidate_summary": "Dev Malhotra is a BCA student graduating in 2025 with foundational skills in Python, Flask, and basic database management. Their current experience is centered on web development and basic automation rather than data science or statistical modeling.",
+  "job_summary": "The Data Scientist role requires proficiency in Python-based data libraries, statistical analysis, scikit-learn for modeling, and experimentation techniques.",
+  "compatibility_score": 21,
+  "score_explanation": "The candidate matches the core programming language (Python) but lacks evidence for all domain-specific requirements including pandas, scikit-learn, and statistics. The project work is focused on web CRUD applications, which does not align with the data science responsibilities outlined in the JD.",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Listed under Skills: Python"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "Data Handling",
+      "evidence": "automated CSV reports; SQLite",
+      "gap": "The JD requires pandas and scikit-learn for complex data manipulation and modeling, whereas the resume only shows basic CSV automation and SQL."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "Statistics",
+      "importance": "high",
+      "reason": "Required for data science roles to validate models and perform experimentation."
+    },
+    {
+      "skill": "pandas",
+      "importance": "high",
+      "reason": "Standard library for data manipulation in Python, explicitly required."
+    },
+    {
+      "skill": "scikit-learn",
+      "importance": "high",
+      "reason": "Primary library for machine learning and model evaluation in Python."
+    },
+    {
+      "skill": "Visualization",
+      "importance": "medium",
+      "reason": "Required for communicating data insights."
+    },
+    {
+      "skill": "Experimentation",
+      "importance": "medium",
+      "reason": "Required for testing hypotheses and model performance."
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Foundational programming knowledge in Python",
+    "Experience with version control (Git)",
+    "Relevant undergraduate degree in progress (BCA)"
+  ],
+  "resume_improvements": [
+    {
+      "original": "automated CSV reports",
+      "suggested": "Automated data extraction and reporting using Python, processing [X] records to improve data accessibility.",
+      "reason": "Quantifying the data work helps bridge the gap toward data-centric roles."
+    },
+    {
+      "original": "Relevant Coursework: Programming, Databases",
+      "suggested": "Relevant Coursework: Programming, Databases, [Insert Math/Stats courses if taken]",
+      "reason": "Data science roles require strong mathematical foundations which are currently not highlighted."
+    }
+  ],
+  "learning_recommendations": [
+    "Complete a certification or project using the Pandas and NumPy libraries for data analysis.",
+    "Build a machine learning project using Scikit-learn to demonstrate model evaluation skills.",
+    "Study introductory statistics and probability to meet the theoretical requirements of the role."
+  ],
+  "warnings": [
+    "The resume provided is a synthetic brief; actual candidate depth may vary if a full CV is available."
+  ]
+}

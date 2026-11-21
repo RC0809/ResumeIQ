@@ -1,0 +1,4 @@
+version,what_changed,why,observed_result,run_date,output_file
+v1,Baseline basic prompt,Establish baseline,Basic comparative run: score 75/100; matched 5; partial 1; missing 3; unverified 0. See saved JSON.,,test-data/outputs/v1_basic_aarav.json
+v2,Recruiter role and evidence constraints,Improve grounded skill matching,Structured comparative run: score 80/100; matched 5; partial 2; missing 3; unverified 2. See saved JSON.,,test-data/outputs/v2_structured_aarav.json
+v3,Sequential internal steps and verification,Improve coverage and consistency,Multi-Step comparative run: score 75/100; matched 6; partial 1; missing 3; unverified 1. See saved JSON.,,test-data/outputs/v3_multi_step_aarav.json

@@ -1,0 +1,11 @@
+test_no,scenario,type,expected_output,actual_output,pass_fail,evidence_file
+T01,Python Developer Intern,Normal,Identify Python/Git; flag missing REST API and practical SQL evidence.,"65/100; 2 matched, 1 partial, 3 missing (previously reported Structured run).",Pass,Earlier T01 screenshot (review source)
+T02,Data Analyst,Normal,Identify SQL/Excel/Power BI; distinguish missing Tableau or A/B testing.,"70/100; 4 matched, 1 partial, 2 missing. Screenshot confirms Data Analyst; supplied JSON is a different Python Developer run.",Pass (screenshot); JSON mismatch,docs/evidence/test_screenshots/T02_01.png
+T03,AI Engineer,Normal,Recognize ML/PyTorch and missing RAG/vector database experience.,"45/100; 2 matched, 1 partial, 4 missing.",Pass,test-data/outputs/T03_structured.json
+T04,Frontend Developer,Normal,Identify frontend skills and note no demonstrated API integration.,"80/100; 5 matched, 0 partial, 2 missing.",Pass,test-data/outputs/T04_structured.json
+T05,Cross-role Data Science,Normal,Highlight role mismatch and missing model evaluation/statistics evidence.,"21/100; 1 matched, 1 partial, 5 missing.",Pass,test-data/outputs/T05_structured.json
+T06,Fresher QA Intern,Normal,Assess coursework/projects without inventing professional experience.,"40/100; 1 matched, 1 partial, 2 missing, 1 unverified.",Pass,test-data/outputs/T06_structured.json
+T07,No Skills Section,Edge,Infer skills only from explicit project evidence; handle absent Skills heading.,"60/100; 3 matched, 1 partial, 2 missing. No Skills heading handled via project evidence.",Pass,test-data/outputs/T07_structured.json
+T08,Unusual Resume Layout,Edge,Handle unconventional layout without crash and avoid unsupported communication claims.,"70/100; 4 matched, 1 partial, 1 missing. Unusual layout handled.",Pass,test-data/outputs/T08_structured.json
+T09,Empty Resume PDF,Invalid,Reject empty/unreadable resume with a clear validation message; do not fabricate analysis.,Rejected empty/unreadable PDF with too-little-selectable-text warning.,Pass,Earlier T09 validation screenshot (review source)
+T10,Very Short Resume,Edge,Flag insufficient evidence and avoid guessing qualifications or skills.,"36/100; 1 matched, 0 partial, 4 missing, 1 unverified; initial short JD rejected then corrected JD analyzed.",Pass,test-data/outputs/T10_structured.json

@@ -1,0 +1,1 @@
+Actual exported Gemini JSON for three individual Aarav Sharma / Junior Python Developer Intern runs. Mapping v1=Basic, v2=Structured, v3=Multi-Step is a staged strategy comparison, not verified historical development. Other tests remain pending.

@@ -1,0 +1,1 @@
+Backend Developer Intern: Python, Django, PostgreSQL, Git, REST APIs, unit testing.

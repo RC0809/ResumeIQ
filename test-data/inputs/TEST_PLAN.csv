@@ -1,0 +1,11 @@
+Test ID,Scenario,Type,Expected behavior,Actual behavior (fill after running),Pass/Fail (fill after running)
+T01,Python Developer Intern,Normal,Identify Python/Git; flag missing REST API and practical SQL evidence.,,
+T02,Data Analyst,Normal,Identify SQL/Excel/Power BI; distinguish missing Tableau or A/B testing.,,
+T03,AI Engineer,Normal,Recognize ML/PyTorch and missing RAG/vector database experience.,,
+T04,Frontend Developer,Normal,Identify frontend skills and note no demonstrated API integration.,,
+T05,Cross-role Data Science,Normal,Highlight role mismatch and missing model evaluation/statistics evidence.,,
+T06,Fresher QA Intern,Normal,Assess coursework/projects without inventing professional experience.,,
+T07,No Skills Section,Edge,Infer skills only from explicit project evidence; handle absent Skills heading.,,
+T08,Unusual Resume Layout,Edge,Handle unconventional layout without crash and avoid unsupported communication claims.,,
+T09,Empty Resume PDF,Invalid,Reject empty/unreadable resume with a clear validation message; do not fabricate analysis.,,
+T10,Very Short Resume,Edge,Flag insufficient evidence and avoid guessing qualifications or skills.,,

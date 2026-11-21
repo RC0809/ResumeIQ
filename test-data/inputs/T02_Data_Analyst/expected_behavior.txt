@@ -1,0 +1,3 @@
+T02 | Normal
+Expected behavior: Identify SQL/Excel/Power BI; distinguish missing Tableau or A/B testing.
+Record actual behavior and Pass/Fail only after a real run.

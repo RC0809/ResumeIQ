@@ -1,0 +1,66 @@
+{
+  "candidate_summary": "Sara Khan is a B.Tech Information Technology student (class of 2025) with a foundational focus on frontend development. She has demonstrated core competencies in React and responsive design through academic projects like a task manager and a portfolio site.",
+  "job_summary": "The Frontend Intern position requires proficiency in core web technologies (HTML/CSS/JS/React), responsive UI development, and REST API integration, with TypeScript as a preferred skill.",
+  "compatibility_score": 80,
+  "score_explanation": "The candidate matches all core technical requirements except for REST API integration and the preferred TypeScript skill. She receives full points for Education (15/15) and Responsibilities/Fit (10/10) due to her Git and UI Design background. Technical skills scored 33/40 due to the missing API requirement, and Projects scored 22/25 as they align well with intern expectations but lack data-fetching complexity.",
+  "matched_skills": [
+    {
+      "skill": "HTML",
+      "evidence": "Listed in Skills section"
+    },
+    {
+      "skill": "CSS",
+      "evidence": "Listed in Skills section"
+    },
+    {
+      "skill": "JavaScript",
+      "evidence": "Listed in Skills section"
+    },
+    {
+      "skill": "React",
+      "evidence": "Listed in Skills and used in Task Manager project"
+    },
+    {
+      "skill": "Responsive UI",
+      "evidence": "Responsive portfolio site project"
+    }
+  ],
+  "partial_skills": [],
+  "missing_skills": [
+    {
+      "skill": "REST API integration",
+      "importance": "high",
+      "reason": "Required by JD; project evidence shows use of local storage instead of external data fetching"
+    },
+    {
+      "skill": "TypeScript",
+      "importance": "medium",
+      "reason": "Listed as a preferred skill in the JD"
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Direct alignment with the required tech stack (HTML/CSS/JS/React)",
+    "Relevant academic background in IT and UI Design",
+    "Practical application of responsive design principles"
+  ],
+  "resume_improvements": [
+    {
+      "original": "React task manager with local storage",
+      "suggested": "React task manager utilizing hooks for state management and local storage for data persistence",
+      "reason": "Provides more technical depth regarding how React was utilized"
+    },
+    {
+      "original": "Responsive portfolio site",
+      "suggested": "Responsive portfolio site developed using CSS Flexbox/Grid and media queries",
+      "reason": "Specifies the technical methods used to achieve responsiveness"
+    }
+  ],
+  "learning_recommendations": [
+    "Develop a project that integrates a public REST API (e.g., GitHub API or OpenWeatherMap) to demonstrate data-fetching skills",
+    "Complete a basic TypeScript tutorial to meet the 'preferred' qualification in the JD"
+  ],
+  "warnings": [
+    "The resume is for a synthetic test profile; assessment is based on limited provided data"
+  ]
+}

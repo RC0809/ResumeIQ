@@ -1,0 +1,62 @@
+{
+  "candidate_summary": "Tara Bose is a Computer Science student graduating in 2025 with a foundational background in data analysis tools. Her experience is centered on academic or personal projects involving survey analytics, dataset cleaning, and visualization using Tableau.",
+  "job_summary": "The Business Analyst role requires proficiency in SQL and Excel for data analysis and dashboarding, with a focus on stakeholder communication and preferred skills in Python and Tableau.",
+  "compatibility_score": 70,
+  "score_explanation": "The candidate matches all technical tool requirements, including preferred skills (Python, Tableau). However, points were deducted because there is no evidence of stakeholder communication (a core JD requirement) and the project experience is limited in scope compared to a professional environment.",
+  "matched_skills": [
+    {
+      "skill": "SQL",
+      "evidence": "Listed in Toolbox"
+    },
+    {
+      "skill": "Excel",
+      "evidence": "Listed in Toolbox"
+    },
+    {
+      "skill": "Python",
+      "evidence": "Listed in Toolbox"
+    },
+    {
+      "skill": "Tableau",
+      "evidence": "Listed in Toolbox and mentioned in Survey analytics project"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "Dashboards",
+      "evidence": "Built Tableau charts",
+      "gap": "Resume mentions charts but does not explicitly detail the creation of comprehensive, interactive dashboards."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "Stakeholder communication",
+      "importance": "high",
+      "reason": "Required by JD; resume focuses entirely on technical tasks without mentioning reporting or collaboration."
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Strong alignment with both required and preferred technical stacks (SQL, Python, Tableau).",
+    "Relevant academic background in Computer Science and Statistics."
+  ],
+  "resume_improvements": [
+    {
+      "original": "Survey analytics; cleaned datasets and built Tableau charts",
+      "suggested": "Conducted survey analytics by cleaning complex datasets using Python and developing Tableau dashboards to communicate insights.",
+      "reason": "Explicitly links the tools to the project outcomes and uses more professional terminology."
+    },
+    {
+      "original": "B.Sc Computer Science, 2025",
+      "suggested": "B.Sc. in Computer Science (Expected 2025) | Relevant Coursework: Statistics, Data Visualization",
+      "reason": "Clarifies that the degree is in progress and highlights relevant coursework more prominently."
+    }
+  ],
+  "learning_recommendations": [
+    "Develop a portfolio project that includes a written report or presentation to demonstrate stakeholder communication skills.",
+    "Gain certification or practical experience in advanced Excel (e.g., PivotTables, VLOOKUPs, or VBA) to solidify 'Business Analyst' readiness."
+  ],
+  "warnings": [
+    "The candidate is a current student (2025 graduation), which may impact immediate full-time availability depending on the employer's timeline."
+  ]
+}

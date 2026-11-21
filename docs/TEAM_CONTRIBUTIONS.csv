@@ -1,0 +1,4 @@
+member_name,enrollment,role,milestone2_tasks,evidence,contribution_percent
+Rakshit Chugh,S24CSEU2485,AI Integration & Project Development,Application architecture/workflow; Gemini API and AI resume analysis; Basic and Multi-Step prompts; prompt comparison/testing coordination; integration/debugging,app.py; prompts/templates.py; prompts/final/basic.txt; prompts/final/multi_step.txt,PENDING TEAM AGREEMENT
+Nakul Luthra,S24CSEU1038,"Team Lead, Frontend Development & Prompt Design",Team coordination; Streamlit UI/UX; resume/JD inputs; Structured prompting; compatibility visualizations and interface improvements,app.py; prompts/final/structured.txt,PENDING TEAM AGREEMENT
+Ashdeep Panesar,S24CSEU1078,"Prompt Evaluation, Testing & Documentation",Test-case preparation; three-strategy evaluation; normal/edge/invalid tests; output accuracy/consistency analysis; screenshots and documentation,test-data/test_cases.csv; test-data/outputs/; docs/evidence/,PENDING TEAM AGREEMENT

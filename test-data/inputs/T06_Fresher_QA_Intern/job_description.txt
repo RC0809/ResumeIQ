@@ -1,0 +1,1 @@
+QA Intern: manual test cases, bug reports, Python scripting, Selenium; preferred CI/CD.

@@ -1,0 +1,4 @@
+Junior Python Developer Intern
+Requirements: Python programming, SQL fundamentals, Git/GitHub, REST API concepts, basic data structures and algorithms, and a bachelor's degree in CS/IT or related field.
+Preferred: Streamlit, pandas, cloud basics, and Docker.
+Responsibilities: Build Python features, debug applications, collaborate using Git, and document work.

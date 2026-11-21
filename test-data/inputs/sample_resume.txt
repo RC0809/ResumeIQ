@@ -1,0 +1,5 @@
+Aarav Sharma
+B.Tech Computer Science, 2026
+Skills: Python, pandas, Git, HTML, CSS
+Projects: Built a Streamlit dashboard that reads CSV files and shows interactive charts. Developed a Python expense tracker with file-based storage. Used GitHub for version control.
+Coursework: Data Structures and Algorithms, Database Management Systems.

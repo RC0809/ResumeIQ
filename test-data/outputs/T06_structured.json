@@ -1,0 +1,61 @@
+{
+  "candidate_summary": "Nisha Rao is a B.Tech Computer Science student (expected 2027) with foundational skills in Python and Java. Her experience is currently limited to academic coursework and basic software projects like a calculator and attendance tracker.",
+  "job_summary": "The QA Intern position focuses on manual testing, bug reporting, and automation using Python and Selenium, with a preference for CI/CD knowledge.",
+  "compatibility_score": 40,
+  "score_explanation": "The candidate receives full points for Education (15/15) as a current CS student and partial points for Technical Skills (15/40) due to Python proficiency. However, there is no evidence of Selenium, manual testing documentation, or bug reporting experience. Projects are general development rather than QA-focused (5/25), and preferred skills like CI/CD are missing (0/10).",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Listed under Skills"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "Manual Testing / Bug Reports",
+      "evidence": "Relevant Coursework: Software Testing",
+      "gap": "Academic knowledge only; no evidence of practical application or writing actual test cases/reports."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "Selenium",
+      "importance": "high",
+      "reason": "Explicitly required for automation in the JD but absent from resume."
+    },
+    {
+      "skill": "CI/CD",
+      "importance": "medium",
+      "reason": "Preferred skill in JD; no mention of Jenkins, GitHub Actions, or similar tools."
+    }
+  ],
+  "unverified_skills": [
+    {
+      "skill": "Git",
+      "reason": "Listed in skills but not mentioned in the context of project version control or collaboration."
+    }
+  ],
+  "strengths": [
+    "Educational background aligns with intern-level requirements",
+    "Foundational programming knowledge in Python and Java"
+  ],
+  "resume_improvements": [
+    {
+      "original": "Software Testing",
+      "suggested": "Software Testing (Unit Testing, Test Case Design, Bug Lifecycle)",
+      "reason": "Adding specific sub-topics shows the depth of the coursework relevant to the JD."
+    },
+    {
+      "original": "College calculator project",
+      "suggested": "Python Calculator Project with Unit Testing",
+      "reason": "Highlighting testing within existing projects demonstrates a QA mindset."
+    }
+  ],
+  "learning_recommendations": [
+    "Complete a certification or project using Selenium WebDriver with Python.",
+    "Practice writing formal bug reports for open-source projects on GitHub.",
+    "Learn the basics of CI/CD pipelines to meet the preferred requirements."
+  ],
+  "warnings": [
+    "The resume is for a student with an expected graduation in 2027, indicating very early-stage experience."
+  ]
+}

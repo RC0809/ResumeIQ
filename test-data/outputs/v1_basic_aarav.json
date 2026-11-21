@@ -1,0 +1,78 @@
+{
+  "candidate_summary": "Aarav Sharma is a Computer Science student with practical experience in Python and Streamlit, demonstrated through data visualization and utility projects. He possesses foundational knowledge in Data Structures and Database Management Systems through his ongoing B.Tech degree.",
+  "job_summary": "This Junior Python Developer Internship requires core Python proficiency, SQL knowledge, Git collaboration, and familiarity with REST APIs to build and debug features.",
+  "compatibility_score": 75,
+  "score_explanation": "The candidate matches core requirements for Python, Git, and DSA, and possesses preferred skills in Streamlit and pandas. The score is reduced because there is no evidence of REST API knowledge, practical SQL application (only coursework), or preferred skills like Docker and Cloud basics.",
+  "matched_skills": [
+    {
+      "skill": "Python",
+      "evidence": "Skills: Python; Developed a Python expense tracker"
+    },
+    {
+      "skill": "Git/GitHub",
+      "evidence": "Skills: Git; Used GitHub for version control"
+    },
+    {
+      "skill": "Streamlit",
+      "evidence": "Built a Streamlit dashboard"
+    },
+    {
+      "skill": "pandas",
+      "evidence": "Skills: pandas"
+    },
+    {
+      "skill": "Data Structures and Algorithms",
+      "evidence": "Coursework: Data Structures and Algorithms"
+    }
+  ],
+  "partial_skills": [
+    {
+      "skill": "SQL Fundamentals",
+      "evidence": "Coursework: Database Management Systems",
+      "gap": "The resume lists theoretical coursework but lacks evidence of writing SQL queries or working with specific databases like PostgreSQL or MySQL."
+    }
+  ],
+  "missing_skills": [
+    {
+      "skill": "REST API concepts",
+      "importance": "high",
+      "reason": "Required by JD for building and debugging features, but not mentioned in skills or projects."
+    },
+    {
+      "skill": "Docker",
+      "importance": "medium",
+      "reason": "Listed as a preferred skill for containerization."
+    },
+    {
+      "skill": "Cloud basics",
+      "importance": "medium",
+      "reason": "Listed as a preferred skill for modern development environments."
+    }
+  ],
+  "unverified_skills": [],
+  "strengths": [
+    "Direct experience with preferred tools like Streamlit and pandas",
+    "Clear evidence of version control usage via GitHub",
+    "Relevant academic background in Computer Science"
+  ],
+  "resume_improvements": [
+    {
+      "original": "Coursework: Database Management Systems",
+      "suggested": "Coursework: Database Management Systems (SQL, Schema Design, Query Optimization)",
+      "reason": "Explicitly mentioning SQL helps match the JD's requirement for SQL fundamentals."
+    },
+    {
+      "original": "Developed a Python expense tracker with file-based storage.",
+      "suggested": "Developed a Python expense tracker implementing CRUD operations and file-based data persistence.",
+      "reason": "Using industry terms like CRUD demonstrates a better understanding of software development patterns."
+    }
+  ],
+  "learning_recommendations": [
+    "Build a small project using a web framework like FastAPI or Flask to demonstrate REST API concepts.",
+    "Complete a SQL certification or project to move from theoretical DBMS knowledge to practical application.",
+    "Learn the basics of Docker by containerizing the existing Streamlit dashboard project."
+  ],
+  "warnings": [
+    "The candidate is a student (graduating 2026), which may impact availability for full-time internship hours depending on university schedules."
+  ]
+}
