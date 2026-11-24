@@ -216,8 +216,8 @@ Milestone 2 documentation includes:
 ## Project Links
 
 **GitHub Repository:** [https://github.com/RC0809/ResumeIQ](https://github.com/RC0809/ResumeIQ)
-
-**Project Demonstration Video:** Coming soon — 90–150-second demonstration video pending.
+**Live Prototype:** https://resumeiq-promptforge.streamlit.app/
+**Project Demonstration Video:** https://youtu.be/hM_b7WRaEho
 
 ## Future Enhancements
 
